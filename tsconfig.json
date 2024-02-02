@@ -3,6 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
+    /*resolveJsonModule e allowSyntheticDefaultImports foram ativados para trabalhar com o json das perguntas.*/
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
